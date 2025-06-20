@@ -61,9 +61,10 @@ This project includes a Django-based web application for classifying skin lesion
 ---
 
 ## Project Files
-	•	notebooks/skin-cancer.ipynb – CNN training, testing, and evaluation
-	•	thesis.pdf – Full academic thesis
-	•	presentation.pdf – Final presentation slides
-	•	webapp/ – Django web frontend
-	•	requirements.txt – Required packages
-	•	README.md – Project documentation
+
+- [`notebooks/skin-cancer.ipynb`](notebooks/skin-cancer.ipynb) – CNN training, testing, and evaluation  
+- [`thesis.pdf`](thesis.pdf) – Full academic thesis  
+- [`presentation.pdf`](presentation.pdf) – Final presentation slides  
+- [`webapp/`](webapp/) – Django web frontend  
+- [`requirements.txt`](requirements.txt) – Required packages  
+- [`README.md`](README.md) – Project documentation
