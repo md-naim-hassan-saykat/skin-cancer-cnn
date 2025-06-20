@@ -63,3 +63,31 @@ This project includes a Django-based web application for classifying skin lesion
 ```bash
 cd webapp
 python manage.py runserver
+
+---
+
+## Project Files
+	•	notebooks/skin-cancer.ipynb – CNN training, testing, evaluation
+	•	thesis.pdf – Full academic thesis
+	•	presentation.pdf – Final presentation slides
+	•	webapp/ – Django-based frontend
+	•	requirements.txt – Dependency list
+	•	README.md – Project documentation
+
+---
+
+## Author
+
+Md Naim Hassan Saykat
+B.Eng in Software Engineering, Sichuan University
+LinkedIn • GitHub
+
+---
+
+## Project Links
+	•	📄 Thesis Report (PDF)
+	•	🖥️ Presentation Slides (PDF)
+
+---
+
+
