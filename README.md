@@ -58,39 +58,12 @@ A deep learning project using Convolutional Neural Networks (CNNs) to classify d
 
 This project includes a Django-based web application for classifying skin lesion images. The app was developed for **local use only** and is **not hosted online**.
 
-### To run locally:
-
-```bash
-cd webapp
-python manage.py runserver
-
 ---
 
-## Project Files
-	•	notebooks/skin-cancer.ipynb – CNN training, testing, evaluation
+Project Files
+	•	notebooks/skin-cancer.ipynb – CNN training, testing, and evaluation
 	•	thesis.pdf – Full academic thesis
 	•	presentation.pdf – Final presentation slides
-	•	webapp/ – Django-based frontend
-	•	requirements.txt – Dependency list
+	•	webapp/ – Django web frontend
+	•	requirements.txt – Required packages
 	•	README.md – Project documentation
-
----
-
-## Author
-
-Md Naim Hassan Saykat
-B.Eng in Software Engineering, Sichuan University
-LinkedIn • GitHub
-
----
-
-## Project Links
-	•	📄 Thesis Report (PDF)
-	•	🖥️ Presentation Slides (PDF)
-
----
-
-## Disclaimer
-
-This repository is shared for academic and demonstration purposes only.
-Reuse, redistribution, or modification without permission is not allowed.
