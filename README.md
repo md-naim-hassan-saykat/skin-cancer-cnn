@@ -90,4 +90,7 @@ LinkedIn • GitHub
 
 ---
 
+## Disclaimer
 
+This repository is shared for academic and demonstration purposes only.
+Reuse, redistribution, or modification without permission is not allowed.
