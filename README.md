@@ -68,3 +68,19 @@ This project includes a Django-based web application for classifying skin lesion
 - [`webapp/`](webapp/) – Django web frontend  
 - [`requirements.txt`](requirements.txt) – Required packages  
 - [`README.md`](README.md) – Project documentation
+
+---
+
+## Author
+
+**Md Naim Hassan Saykat**  
+Bachelor of Engineering in Software Engineering  
+Sichuan University  
+[LinkedIn](https://www.linkedin.com/in/md-naim-hassan-saykat-389b1a212/) • [GitHub](https://github.com/md-naim-hassan-saykat)
+
+---
+
+## Disclaimer
+
+This repository is provided for academic and demonstration purposes only.  
+Reuse, redistribution, or modification without the author's permission is not permitted.
