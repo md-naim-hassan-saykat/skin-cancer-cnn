@@ -21,8 +21,6 @@ A deep learning project using Convolutional Neural Networks (CNNs) to classify d
 
 > Compared against VGG-16, ResNet-50, and Xception architectures  
 
-![Architecture](./static/model_diagram.png)
-
 ---
 
 ## Dataset
