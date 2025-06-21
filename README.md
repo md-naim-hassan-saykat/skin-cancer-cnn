@@ -84,13 +84,3 @@ Sichuan University
 
 This repository is provided for academic and demonstration purposes only.  
 Reuse, redistribution, or modification without the author's permission is not permitted.
-
----
-
----
-
-##  How to Run
-
-### Install Dependencies
-```bash
-pip install -r requirements.txt
