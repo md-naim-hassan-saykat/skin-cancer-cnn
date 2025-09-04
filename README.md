@@ -1,84 +1,111 @@
-# CNN-Based Skin Cancer Detection and Classification
+# Skin Cancer Classification (CNN)
 
-A deep learning project using Convolutional Neural Networks (CNNs) to classify dermoscopic skin lesion images into 7 types of cancer. A full-stack deployment was implemented using Django to enable real-time predictions via a web interface.
+This project implements a **Convolutional Neural Network (CNN)** for automated skin cancer classification.  
+It leverages **deep learning** to classify dermatoscopic images into multiple lesion categories, supporting early diagnosis and medical decision-making.
 
 ---
 
 ## Overview
-
-- Built a custom CNN to classify lesions using the HAM10000 dataset  
-- Compared performance with transfer learning models (VGG-16, ResNet-50, Xception)  
-- Achieved 81% accuracy on the test set  
-- Developed a Django web interface for user-friendly diagnosis  
-
----
-
-## Model Architecture
-
-- Input: 64×64×3 dermoscopic images  
-- Layers: Conv → ReLU → MaxPool → Dropout → Fully Connected  
-- Optimizer: Adam | Loss: Categorical Crossentropy | Metrics: Accuracy  
-
-> Compared against VGG-16, ResNet-50, and Xception architectures  
+- **Dataset**: HAM10000 skin lesion dataset  
+- **Model**: Convolutional Neural Network (CNN) built with Keras/TensorFlow  
+- **Features**:
+  - Custom CNN model trained from scratch
+  - Image preprocessing and augmentation
+  - Evaluation using accuracy, precision, recall, F1-score
+  - Visualization: loss/accuracy curves, confusion matrix
+  - Web interface for image upload and prediction (Django + Bootstrap)
+- **Goal**: Demonstrate how deep learning can assist dermatologists by classifying skin lesion images automatically.
 
 ---
 
 ## Dataset
+The dataset used is **HAM10000** (Human Against Machine with 10000 training images).  
+It includes dermatoscopic images of common pigmented skin lesions.
 
-- **Source:** [HAM10000](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000)  
-- **Classes:**
-  - Melanoma (mel)
-  - Melanocytic Nevi (nv)
-  - Basal Cell Carcinoma (bcc)
-  - Benign Keratosis (bkl)
-  - Actinic Keratoses (akiec)
-  - Dermatofibroma (df)
-  - Vascular Lesions (vasc)
+Dataset reference:  
+> Tschandl P, Rosendahl C, Kittler H. *The HAM10000 dataset: A large collection of multi-source dermatoscopic images of common pigmented skin lesions*. Sci Data 5, 180161 (2018).  
+🔗 [Dataset Link (Kaggle)](https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000)
 
-- Preprocessing: resizing, normalization, and class balancing
+---
+
+## Repository Structure
+skin-cancer-cnn/
+├── core/                 # Django app (models, views, urls, migrations)
+├── docInterface/         # Django project settings
+├── kerasModel/           # Saved CNN model (mymodel.h5)
+├── media/                # Uploaded/test images
+├── static/               # CSS, JS, Bootstrap, logo, theme
+├── templates/            # Frontend HTML templates
+├── manage.py             # Django project manager
+├── requirements.txt      # Python dependencies
+└── db.sqlite3            # SQLite database (local only, don’t upload)
+
+---
+
+## Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/md-naim-hassan-saykat/skin-cancer-cnn.git
+   cd skin-cancer-cnn
+
+## Install dependencies
+pip install -r requirements.txt
+
+## Apply database migrations
+python manage.py migrate
+
+## Create a superuser (for Django Admin)
+python manage.py createsuperuser
+
+## Run the server
+python manage.py runserver
+
+## Open in browser
+http://127.0.0.1:8000
 
 ---
 
 ## Results
+	•	Training and validation accuracy improve steadily over epochs.
+	•	Confusion matrix shows class-wise performance.
+	•	Test accuracy demonstrates robust classification across lesion types.
 
-| Model         | Accuracy | Loss   |
-|---------------|----------|--------|
-| CNN (proposed)| 81.0%    | 0.63   |
-| ResNet-50     | 79.0%    | 1.15   |
-| VGG-16        | 76.0%    | 1.78   |
-| Xception      | 73.0%    | 11.64  |
+ ---
 
-> Also evaluated using confusion matrix, precision, recall, and F1-score
+## Web Interface
 
----
-
-## Web Interface (Local Deployment)
-
-This project includes a Django-based web application for classifying skin lesion images. The app was developed for **local use only** and is **not hosted online**.
+The project includes a simple Django web app:
+	•	Upload an image
+	•	Model predicts the skin lesion category
+	•	Result displayed on the frontend (Bootstrap-based UI)
 
 ---
 
-## Project Files
+## Requirements
+Main dependencies (full list in requirements.txt):
+	•	Python 3.9+
+	•	Django 4.x
+	•	TensorFlow / Keras
+	•	scikit-learn
+	•	matplotlib
+	•	numpy
+	•	bootstrap (via static files)
 
-- [`notebooks/skin-cancer.ipynb`](notebooks/skin-cancer.ipynb) – CNN training, testing, and evaluation  
-- [`thesis.pdf`](thesis.pdf) – Full academic thesis  
-- [`presentation.pdf`](presentation.pdf) – Final presentation slides  
-- [`webapp/`](webapp/) – Django web frontend  
-- [`requirements.txt`](requirements.txt) – Required packages  
-- [`README.md`](README.md) – Project documentation
+ ---
 
----
-
-## Author
-
-**Md Naim Hassan Saykat**  
-Bachelor of Engineering in Software Engineering  
-Sichuan University  
-[LinkedIn](https://www.linkedin.com/in/md-naim-hassan-saykat-389b1a212/) • [GitHub](https://github.com/md-naim-hassan-saykat)
+## License
+This project is licensed under the MIT License.
+Feel free to use and adapt it for research and educational purposes.
 
 ---
 
-## Disclaimer
+# Author
 
-This repository is provided for academic and demonstration purposes only.  
-Reuse, redistribution, or modification without the author's permission is not permitted.
+ **Md Naim Hassan Saykat**  
+*MSc in Artificial Intelligence, Université Paris-Saclay*  
+
+[LinkedIn](https://www.linkedin.com/in/md-naim-hassan-saykat/)  
+[GitHub](https://github.com/md-naim-hassan-saykat)  
+[Academic Email](mailto:md-naim-hassan.saykat@universite-paris-saclay.fr)  
+[Personal Email](mailto:mdnaimhassansaykat@gmail.com) 
