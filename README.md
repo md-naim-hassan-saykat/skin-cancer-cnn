@@ -28,6 +28,17 @@ Dataset reference:
 
 ---
 
+## Pre-trained Model
+The trained CNN model is available here:  
+[Download mymodel.h5 (Google Drive)](your_link_here)
+
+After downloading, place it into the `kerasModel/` folder:
+skin-cancer-cnn/
+├── kerasModel/
+│   └── mymodel.h5   # Pre-trained CNN model
+
+---
+
 ## Repository Structure
 skin-cancer-cnn/
 ├── core/                 # Django app (models, views, urls, migrations)
