@@ -1,0 +1,64 @@
+# =========================================
+# Python
+# =========================================
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# =========================================
+# Django
+# =========================================
+db.sqlite3
+*.log
+/media/
+staticfiles/
+*.pot
+
+# Ignore Django migration files
+*/migrations/*
+!*/migrations/__init__.py
+
+# =========================================
+# TensorFlow / Keras
+# =========================================
+*.h5
+*.ckpt
+*.pb
+*.tflite
+*.onnx
+
+# =========================================
+# Jupyter Notebook
+# =========================================
+.ipynb_checkpoints/
+*.ipynb~
+
+# =========================================
+# macOS System Files
+# =========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# =========================================
+# VS Code / PyCharm
+# =========================================
+.vscode/
+.idea/
+*.swp
+*.swo
