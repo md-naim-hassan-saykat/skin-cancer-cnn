@@ -3,7 +3,7 @@
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/md-naim-hassan-saykat/skin-cancer-cnn/blob/main/BachelorThesis/skin-cancer.ipynb)
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/downloads/release/python-390/)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)](https://www.tensorflow.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 This project implements a **Convolutional Neural Network (CNN)** for automated skin cancer classification.  
