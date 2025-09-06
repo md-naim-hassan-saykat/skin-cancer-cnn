@@ -94,17 +94,6 @@ Feel free to use and adapt it for research and educational purposes.
 
 ---
 
-# Author
-
- **Md Naim Hassan Saykat**  
-*MSc in Artificial Intelligence, Université Paris-Saclay*  
-
-[LinkedIn](https://www.linkedin.com/in/md-naim-hassan-saykat/)  
-[GitHub](https://github.com/md-naim-hassan-saykat)  
-[Academic Email](mailto:md-naim-hassan.saykat@universite-paris-saclay.fr)  
-[Personal Email](mailto:mdnaimhassansaykat@gmail.com)
-
-
 ## Installation & Setup
 
 ### 1. Create and activate a virtual environment
@@ -148,3 +137,13 @@ Expose the server to all hosts:
 python manage.py runserver 0.0.0.0:8000
 
 ---
+# Author
+
+ **Md Naim Hassan Saykat**  
+*MSc in Artificial Intelligence, Université Paris-Saclay*  
+
+[LinkedIn](https://www.linkedin.com/in/md-naim-hassan-saykat/)  
+[GitHub](https://github.com/md-naim-hassan-saykat)  
+[Academic Email](mailto:md-naim-hassan.saykat@universite-paris-saclay.fr)  
+[Personal Email](mailto:mdnaimhassansaykat@gmail.com)
+
