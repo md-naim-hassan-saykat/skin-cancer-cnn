@@ -62,7 +62,6 @@ skin-cancer-cnn/
 ## Installation & Setup
 
 ### Create and activate a virtual environment
-bash
 python -m venv .venv
 ### Activate
 source .venv/bin/activate        # Mac/Linux
