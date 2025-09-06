@@ -104,9 +104,10 @@ python manage.py runserver 0.0.0.0:8000
 ---
 
 ## Results
-	•	Training and validation accuracy improve steadily over epochs.
-	•	Confusion matrix shows class-wise performance.
-	•	Test accuracy demonstrates robust classification across lesion types.
+
+- Training and validation accuracy improve steadily over epochs.
+- Confusion matrix shows class-wise performance.
+- Test accuracy demonstrates robust classification across lesion types.
 
  ---
 
