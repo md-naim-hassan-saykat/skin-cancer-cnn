@@ -59,50 +59,6 @@ skin-cancer-cnn/
 
 ---
 
-## Installation & Setup
-
-### 1. Create and activate a virtual environment
-```bash
-python -m venv .venv
-# Activate
-source .venv/bin/activate        # Mac/Linux
-.venv\Scripts\activate           # Windows
-
-## Install dependencies
-pip install -r requirements.txt
-
-## Apply database migrations
-python manage.py migrate
-
-## Create a superuser (for Django Admin)
-python manage.py createsuperuser
-
-## Run the server
-python manage.py runserver
-
-## Open in browser
-http://127.0.0.1:8000
-
-## Troubleshooting
-	•	Page doesn’t open?
-	•	Ensure the server is actually running (you should see:
-“Starting development server at http://127.0.0.1:8000/” in the terminal).
-	•	Check ALLOWED_HOSTS in docInterface/settings.py includes:
-ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
-
-## Port 8000 is busy?
-Run on a different port:
-python manage.py runserver 8001
-
-## Then open:
-http://127.0.0.1:8001
-
-## Running on a remote machine / Colab?
-Expose the server to all hosts:
-python manage.py runserver 0.0.0.0:8000
-
----
-
 # Results
 
 - Training and validation accuracy improve steadily over epochs.
@@ -146,4 +102,49 @@ Feel free to use and adapt it for research and educational purposes.
 [LinkedIn](https://www.linkedin.com/in/md-naim-hassan-saykat/)  
 [GitHub](https://github.com/md-naim-hassan-saykat)  
 [Academic Email](mailto:md-naim-hassan.saykat@universite-paris-saclay.fr)  
-[Personal Email](mailto:mdnaimhassansaykat@gmail.com) 
+[Personal Email](mailto:mdnaimhassansaykat@gmail.com)
+
+
+## Installation & Setup
+
+### 1. Create and activate a virtual environment
+```bash
+python -m venv .venv
+# Activate
+source .venv/bin/activate        # Mac/Linux
+.venv\Scripts\activate           # Windows
+
+## Install dependencies
+pip install -r requirements.txt
+
+## Apply database migrations
+python manage.py migrate
+
+## Create a superuser (for Django Admin)
+python manage.py createsuperuser
+
+## Run the server
+python manage.py runserver
+
+## Open in browser
+http://127.0.0.1:8000
+
+## Troubleshooting
+	•	Page doesn’t open?
+	•	Ensure the server is actually running (you should see:
+“Starting development server at http://127.0.0.1:8000/” in the terminal).
+	•	Check ALLOWED_HOSTS in docInterface/settings.py includes:
+ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
+
+## Port 8000 is busy?
+Run on a different port:
+python manage.py runserver 8001
+
+## Then open:
+http://127.0.0.1:8001
+
+## Running on a remote machine / Colab?
+Expose the server to all hosts:
+python manage.py runserver 0.0.0.0:8000
+
+---
