@@ -18,7 +18,7 @@ It leverages **deep learning** to classify dermatoscopic images into multiple le
   - Custom CNN model trained from scratch
   - Image preprocessing and augmentation
   - Evaluation using accuracy, precision, recall, F1-score
-  - Visualization: loss/accuracy curves, confusion matrix
+  - Visualization: loss/accuracy curves, confusion matrix 
   - Web interface for image upload and prediction (Django + Bootstrap)
 - **Goal**: Demonstrate how deep learning can assist dermatologists by classifying skin lesion images automatically.
 
@@ -61,12 +61,8 @@ skin-cancer-cnn/
 
 ## Installation & Setup
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/md-naim-hassan-saykat/skin-cancer-cnn.git
-   cd skin-cancer-cnn
-
-## Install dependencies
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
 ## Apply database migrations
@@ -80,6 +76,18 @@ python manage.py runserver
 
 ## Open in browser
 http://127.0.0.1:8000
+
+If the page still doesn’t open
+	•	Make sure the server is actually running (you should see “Starting development server at http://127.0.0.1:8000/” in the terminal).
+	•	Check ALLOWED_HOSTS in docInterface/settings.py includes:
+ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
+
+	•	Try a different port (if 8000 is busy):
+python manage.py runserver 8001
+then open http://127.0.0.1:8001.
+
+	•	If you’re running on a remote machine/Colab and want to access from your laptop, run:
+python manage.py runserver 0.0.0.0:8000
 
 ---
 
