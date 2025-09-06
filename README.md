@@ -59,44 +59,10 @@ skin-cancer-cnn/
 
 ---
 
-# Results
-
-- Training and validation accuracy improve steadily over epochs.
-- Confusion matrix shows class-wise performance.
-- Test accuracy demonstrates robust classification across lesion types.
-
- ---
-
-# Web Interface
-The project includes a simple Django web app:
-	•	Upload an image
-	•	Model predicts the skin lesion category
-	•	Result displayed on the frontend (Bootstrap-based UI)
-
----
-
-# Requirements
-Main dependencies (full list in requirements.txt):
-	•	Python 3.9+
-	•	Django 4.x
-	•	TensorFlow / Keras
-	•	scikit-learn
-	•	matplotlib
-	•	numpy
-	•	bootstrap (via static files)
-
- ---
-
-# License
-This project is licensed under the MIT License.
-Feel free to use and adapt it for research and educational purposes.
-
----
-
 ## Installation & Setup
 
 ### 1. Create and activate a virtual environment
-```bash
+bash
 python -m venv .venv
 # Activate
 source .venv/bin/activate        # Mac/Linux
@@ -134,6 +100,40 @@ http://127.0.0.1:8001
 ## Running on a remote machine / Colab?
 Expose the server to all hosts:
 python manage.py runserver 0.0.0.0:8000
+
+---
+
+# Results
+
+- Training and validation accuracy improve steadily over epochs.
+- Confusion matrix shows class-wise performance.
+- Test accuracy demonstrates robust classification across lesion types.
+
+ ---
+
+# Web Interface
+The project includes a simple Django web app:
+	•	Upload an image
+	•	Model predicts the skin lesion category
+	•	Result displayed on the frontend (Bootstrap-based UI)
+
+---
+
+# Requirements
+Main dependencies (full list in requirements.txt):
+	•	Python 3.9+
+	•	Django 4.x
+	•	TensorFlow / Keras
+	•	scikit-learn
+	•	matplotlib
+	•	numpy
+	•	bootstrap (via static files)
+
+ ---
+
+# License
+This project is licensed under the MIT License.
+Feel free to use and adapt it for research and educational purposes.
 
 ---
 
