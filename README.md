@@ -1,9 +1,10 @@
 # Skin Cancer Classification (CNN)
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)  
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue) 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/](https://github.com/md-naim-hassan-saykat/skin-cancer-cnn/blob/main/BachelorThesis/skin-cancer.ipynb)  
+
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/downloads/release/python-390/)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 This project implements a **Convolutional Neural Network (CNN)** for automated skin cancer classification.  
 It leverages **deep learning** to classify dermatoscopic images into multiple lesion categories, supporting early diagnosis and medical decision-making.
