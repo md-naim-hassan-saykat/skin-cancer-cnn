@@ -30,7 +30,7 @@ Dataset reference:
 
 ## Pre-trained Model
 The trained CNN model is available here:  
-[Download mymodel.h5 (Google Drive)](your_link_here)
+[Download mymodel.h5 (Google Drive)](https://drive.google.com/drive/u/2/folders/1MG7tE-8BslsMz34m-EtOGDHvOdXGjrbB)
 
 After downloading, place it into the `kerasModel/` folder:
 skin-cancer-cnn/
