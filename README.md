@@ -103,7 +103,7 @@ python manage.py runserver 0.0.0.0:8000
 
 ---
 
-## Results
+# Results
 
 - Training and validation accuracy improve steadily over epochs.
 - Confusion matrix shows class-wise performance.
@@ -111,7 +111,7 @@ python manage.py runserver 0.0.0.0:8000
 
  ---
 
-## Web Interface
+# Web Interface
 
 The project includes a simple Django web app:
 	•	Upload an image
@@ -120,7 +120,7 @@ The project includes a simple Django web app:
 
 ---
 
-## Requirements
+# Requirements
 Main dependencies (full list in requirements.txt):
 	•	Python 3.9+
 	•	Django 4.x
@@ -132,7 +132,7 @@ Main dependencies (full list in requirements.txt):
 
  ---
 
-## License
+# License
 This project is licensed under the MIT License.
 Feel free to use and adapt it for research and educational purposes.
 
