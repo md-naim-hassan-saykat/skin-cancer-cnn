@@ -68,7 +68,6 @@ skin-cancer-cnn/
  ---
 
 # Web Interface
-
 The project includes a simple Django web app:
 	•	Upload an image
 	•	Model predicts the skin lesion category
