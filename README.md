@@ -32,13 +32,26 @@ Dataset reference:
 > Tschandl P, Rosendahl C, Kittler H. *The HAM10000 dataset: A large collection of multi-source dermatoscopic images of common pigmented skin lesions*. Sci Data 5, 180161 (2018).  
 🔗 [Dataset Link (Kaggle)](https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000)
 
+After downloading, place images into the media/ folder if running local tests:
+
+skin-cancer-cnn/
+├── media/
+│   ├── bcc-cell.jpeg
+│   ├── example-image.jpg
+│   └── …
+
 ---
 
+**Pre-trained model**  
+Same — wrap in a tree block for neat formatting:
+
+markdown
 ## Pre-trained Model
 The trained CNN model is available here:  
 [Download mymodel.h5 (Google Drive)](https://drive.google.com/drive/u/2/folders/1MG7tE-8BslsMz34m-EtOGDHvOdXGjrbB)
 
-After downloading, place it into the `kerasModel/` folder:
+Place it in the `kerasModel/` folder:
+
 skin-cancer-cnn/
 ├── kerasModel/
 │   └── mymodel.h5   # Pre-trained CNN model
