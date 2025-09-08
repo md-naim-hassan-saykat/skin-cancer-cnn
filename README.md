@@ -42,11 +42,9 @@ skin-cancer-cnn/
 
 ---
 
-**Pre-trained model**  
+ ## Pre-trained Model
 Same — wrap in a tree block for neat formatting:
 
-markdown
-## Pre-trained Model
 The trained CNN model is available here:  
 [Download mymodel.h5 (Google Drive)](https://drive.google.com/drive/u/2/folders/1MG7tE-8BslsMz34m-EtOGDHvOdXGjrbB)
 
