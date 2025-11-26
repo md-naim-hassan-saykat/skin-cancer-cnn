@@ -111,8 +111,8 @@ http://127.0.0.1:8000
 	ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
 
 ### Port 8000 is busy?
-```bash
 Run on a different port:
+```bash
 python manage.py runserver 8001
 ```
 ### Then open:
