@@ -108,7 +108,7 @@ http://127.0.0.1:8000
 “Starting development server at http://127.0.0.1:8000/” in the terminal).
 	
 	•	Check ALLOWED_HOSTS in docInterface/settings.py includes:
-ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
+	ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
 
 ### Port 8000 is busy?
 ```bash
@@ -126,7 +126,7 @@ python manage.py runserver 0.0.0.0:8000
 ```
 ---
 
-# Results
+## Results
 
 - Training and validation accuracy improve steadily over epochs.
 - Confusion matrix shows class-wise performance.
@@ -134,7 +134,7 @@ python manage.py runserver 0.0.0.0:8000
 
  ---
 
-# Web Interface
+## Web Interface
 The project includes a simple Django web app:
 
 	•	Upload an image
@@ -143,7 +143,7 @@ The project includes a simple Django web app:
 
 ---
 
-# Requirements
+## Requirements
 Main dependencies (full list in requirements.txt):
 
 	•	Python 3.9+
@@ -156,13 +156,13 @@ Main dependencies (full list in requirements.txt):
 
  ---
 
-# License
+## License
 This project is licensed under the MIT License.
 Feel free to use and adapt it for research and educational purposes.
 
 ---
 
-# Author
+## Author
 
  **Md Naim Hassan Saykat**  
 *MSc in Artificial Intelligence, Université Paris-Saclay*  
