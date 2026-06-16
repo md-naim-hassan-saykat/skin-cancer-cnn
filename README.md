@@ -102,12 +102,10 @@ python manage.py runserver
 http://127.0.0.1:8000
 ```
 ### Troubleshooting
-
-	.	Page doesn’t open?
-	.	Ensure the server is actually running (you should see:
+- Page doesn’t open?
+- Ensure the server is actually running (you should see:
 “Starting development server at http://127.0.0.1:8000/” in the terminal).
-	
-	.	Check ALLOWED_HOSTS in docInterface/settings.py includes:
+- Check ALLOWED_HOSTS in docInterface/settings.py includes:
 	ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
 
 ### Port 8000 is busy?
@@ -136,23 +134,21 @@ python manage.py runserver 0.0.0.0:8000
 
 ## Web Interface
 The project includes a simple Django web app:
-
-	.	Upload an image
-	.	Model predicts the skin lesion category
-	.	Result displayed on the frontend (Bootstrap-based UI)
+- Upload an image
+- Model predicts the skin lesion category
+- Result displayed on the frontend (Bootstrap-based UI)
 
 ---
 
 ## Requirements
 Main dependencies (full list in requirements.txt):
-
-	.	Python 3.9+
-	.	Django 4.x
-	.	TensorFlow / Keras
-	.	scikit-learn
-	.	matplotlib
-	.	numpy
-	.	bootstrap (via static files)
+- Python 3.9+
+- Django 4.x
+- TensorFlow / Keras
+- scikit-learn
+- matplotlib
+- numpy
+- bootstrap (via static files)
 
  ---
 
