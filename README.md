@@ -72,52 +72,52 @@ skin-cancer-cnn/
 
 ## Installation & Setup
 
-### Create and activate a virtual environment
+#### Create and activate a virtual environment
 ```bash
 python -m venv .venv
 ```
-### Activate
+#### Activate
 ```bash
 source .venv/bin/activate        # Mac/Linux
 .venv\Scripts\activate           # Windows
 ```
-### Install dependencies
+#### Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-### Apply database migrations
+#### Apply database migrations
 ```bash
 python manage.py migrate
 ```
-### Create a superuser (for Django Admin)
+#### Create a superuser (for Django Admin)
 ```bash
 python manage.py createsuperuser
 ```
-### Run the server
+#### Run the server
 ```bash
 python manage.py runserver
 ```
-### Open in browser
+#### Open in browser
 ```bash
 http://127.0.0.1:8000
 ```
-### Troubleshooting
+#### Troubleshooting
 - Page doesn’t open?
 - Ensure the server is actually running (you should see:
 "Starting development server at http://127.0.0.1:8000/" in the terminal).
 - Check ALLOWED_HOSTS in docInterface/settings.py includes:
 	ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
 
-### Port 8000 is busy?
+#### Port 8000 is busy?
 Run on a different port:
 ```bash
 python manage.py runserver 8001
 ```
-### Then open:
+#### Then open:
 ```bash
 http://127.0.0.1:8001
 ```
-### Running on a remote machine / Colab?
+#### Running on a remote machine / Colab?
 Expose the server to all hosts:
 ```bash
 python manage.py runserver 0.0.0.0:8000
