@@ -117,7 +117,7 @@ python manage.py runserver 8001
 ```bash
 http://127.0.0.1:8001
 ```
-#### Running on a remote machine / Colab?
+#### Running on a remote machine/Colab?
 Expose the server to all hosts:
 ```bash
 python manage.py runserver 0.0.0.0:8000
