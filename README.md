@@ -104,7 +104,7 @@ http://127.0.0.1:8000
 ### Troubleshooting
 - Page doesn’t open?
 - Ensure the server is actually running (you should see:
-“Starting development server at http://127.0.0.1:8000/” in the terminal).
+"Starting development server at http://127.0.0.1:8000/" in the terminal).
 - Check ALLOWED_HOSTS in docInterface/settings.py includes:
 	ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
 
